@@ -1,0 +1,33 @@
+.hero {
+    width: 100%;
+    height: 541px;
+}
+
+.content {
+    width: 1240px;
+    height: 541px;
+}
+
+.left {
+    margin-right: auto;
+}
+
+.content>.left>.satu {
+    color: #2E2E2E;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content>.left>.dua {
+    color: #2E2E2E;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.right {
+    margin-left: auto;
+}
