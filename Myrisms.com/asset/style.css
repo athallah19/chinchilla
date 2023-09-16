@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* .nav-box {
+    
+} */
+
+.nav-1 {
+    width: 100%;
+    background-color: #E94B4A;
+}
+
+.nav-content1 {
+    width: 1240px;
+    height: 100px;
+}
+
+.hambugermenu {
+    margin-right: auto;
+}
+
+.nav-2 {
+    width: 100%;
+    background-color: #F0F0F0;
+}
+
+.nav-content2 {
+    width: 1240px;
+    height: 56px;
+    
+}
+
+.menu {
+    gap: 20px;
+    margin-right: auto;
+}
+
+.menu > li > a {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2e2e2e;
+}
+
+.menu > li > .first {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E94B4A;
+}
+
+.login {
+    width: 110px;
+    height: 45px;
+
+    margin-left: auto;
+    gap: 7px;
+    border-radius: 25px;
+    border: 2px solid #F0F0F0;
+}
+
+.login > p {
+    font-size: 18px;
+    font-weight: medium;
+    color: #F0F0F0;
+}
+
+
+.hero {
+    width: 100%;
+    height: 541px;
+    
+}
