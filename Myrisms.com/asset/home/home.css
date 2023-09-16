@@ -3,6 +3,7 @@
     height: 541px;
 
     background-color: #F0F0F0;
+    border-radius: 0px 0px 300px 0px;
 }
 
 .hero-content {
@@ -49,14 +50,14 @@
 
 .about-us-content {
     width: 1300px;
-    height: 618px;
+    height: 614px;
 
     gap: 64px;
 }
 
 .about-us-content>.right {
     width: 625.259px;
-    height: 618px;
+    height: 614px;
 
     gap: 30px;
     margin-bottom: auto;
