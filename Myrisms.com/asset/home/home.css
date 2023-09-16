@@ -1,18 +1,23 @@
 .hero {
     width: 100%;
     height: 541px;
+
+    background-color: #F0F0F0;
 }
 
-.content {
-    width: 1240px;
+.hero-content {
+    width: 1300px;
     height: 541px;
+
+    margin-bottom: 50px;
 }
 
-.left {
+.hero-content>.left {
     margin-right: auto;
+    gap: 5px;
 }
 
-.content>.left>.satu {
+.hero-content>.left>.satu {
     color: #2E2E2E;
     font-size: 50px;
     font-style: normal;
@@ -20,14 +25,144 @@
     line-height: normal;
 }
 
-.content>.left>.dua {
+.hero-content>.left>.dua {
     color: #2E2E2E;
     font-size: 35px;
     font-style: italic;
     font-weight: 500;
     line-height: normal;
+
+    margin-bottom: 70px;
+    margin-right: auto;
 }
 
-.right {
+.hero-content>.right {
     margin-left: auto;
+}
+
+
+
+.about-us {
+    margin-top: 250px;
+    margin-bottom: 350px;
+}
+
+.about-us-content {
+    width: 1300px;
+    height: 618px;
+
+    gap: 64px;
+}
+
+.about-us-content>.right {
+    width: 625.259px;
+    height: 618px;
+
+    gap: 30px;
+    margin-bottom: auto;
+}
+
+.about-us-content>.right>h3 {
+    color: #E94B4A;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: auto;
+}
+
+.about-us-content>.right>p {
+    color: #2E2E2E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 30px;
+}
+
+.about-us-content>.right>p>.bold {
+    color: #E94B4A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.icons {
+    gap: 20px;
+    margin-right: auto;
+}
+
+.icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: #2E2E2E;
+    border-radius: 50%;
+    outline: 2px solid #2E2E2E;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon i {
+    font-size: 17px;
+    margin: auto;
+}
+
+.icon:hover i {
+    animation: shake 0.25s;
+}
+
+.icon--instagram:hover {
+    color: #E94B4A;
+    outline-color: #E94B4A;
+}
+
+.icon--facebook:hover {
+    color: #E94B4A;
+    outline-color: #E94B4A;
+}
+
+.icon--youtube:hover {
+    color: #E94B4A;
+    outline-color: #E94B4A;
+}
+
+.icon--tiktok:hover {
+    color: #E94B4A;
+    outline-color: #E94B4A;
+}
+
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
+}
+
+.banner {
+    margin-bottom: 25px;
+    width: 611.17px;
+    height: 614px;
+    border-radius: 10px;
+}
+
+.swiper {
+    width: 611.17px;
 }
