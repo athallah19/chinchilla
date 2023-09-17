@@ -44,8 +44,8 @@
 
 
 .about-us {
-    margin-top: 250px;
-    margin-bottom: 350px;
+    margin-top: 275px;
+    margin-bottom: 275px;
 }
 
 .about-us-content {
@@ -77,7 +77,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
     line-height: 30px;
 }
 
@@ -117,26 +116,6 @@
 
 .icon:hover i {
     animation: shake 0.25s;
-}
-
-.icon--instagram:hover {
-    color: #E94B4A;
-    outline-color: #E94B4A;
-}
-
-.icon--facebook:hover {
-    color: #E94B4A;
-    outline-color: #E94B4A;
-}
-
-.icon--youtube:hover {
-    color: #E94B4A;
-    outline-color: #E94B4A;
-}
-
-.icon--tiktok:hover {
-    color: #E94B4A;
-    outline-color: #E94B4A;
 }
 
 @keyframes shake {
