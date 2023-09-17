@@ -110,21 +110,30 @@ footer {
 }
 
 .footer-judul {
-    color: #FFF8F3;
+    color: #F0F0F0;
     font-size: 50px;
     font-weight: 700;
 }
 
 .footer-call-us {
-    color: #FFF8F3;
+    color: #F0F0F0;
     font-size: 35px;
     font-weight: 500;
 }
 
 .footer-text {
-    color: #FFF8F3;
+    color: #F0F0F0;
     font-size: 20px;
     font-weight: 400;
+}
+
+.right>li>.footer-text {
+    cursor: pointer;
+    transition: 0.2s;
+}
+.right>li>.footer-text:hover {
+    font-weight: bold;
+    color: #2e2e2e;
 }
 
 .footer-bottom {
@@ -189,7 +198,7 @@ footer {
 }
 
 .footer-bottom-content>p {
-    color: #FFF8F3;
+    color: #F0F0F0;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -197,7 +206,7 @@ footer {
 }
 
 .footer-bottom-content>p>span {
-    color: #FFF8F3;
+    color: #F0F0F0;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
