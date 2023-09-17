@@ -132,8 +132,7 @@ footer {
     transition: 0.2s;
 }
 .right>li>.footer-text:hover {
-    font-weight: bold;
-    color: #2e2e2e;
+    color: #ffffff;
 }
 
 .footer-bottom {
