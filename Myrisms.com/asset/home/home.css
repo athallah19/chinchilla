@@ -16,7 +16,6 @@
 
 .hero-content>.left {
     margin-right: auto;
-    gap: 5px;
 }
 
 .hero-content>.left>.satu {
@@ -53,14 +52,14 @@
     width: 1300px;
     height: 614px;
 
-    gap: 64px;
+    gap: 6px;
 }
 
 .about-us-content>.right {
     width: 625.259px;
     height: 614px;
 
-    gap: 30px;
+    gap: 15px;
     margin-bottom: auto;
 }
 
