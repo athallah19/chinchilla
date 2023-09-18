@@ -79,14 +79,19 @@ html {
     margin-right: auto;
 }
 
-.dropdown-menu>li>a {
-    color: #FFF;
-    font-size: 22px;
-    font-weight: 400;
-}
-
 .dropdown-menu>li {
     gap: 40px;
+}
+
+.dropdown-menu>li>a {
+    color: #F0F0F0;
+    font-size: 22px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #ffffff;
 }
 
 .dropdown-icon {
@@ -113,14 +118,25 @@ html {
 
 .menu>li>a {
     font-size: 20px;
-    font-weight: medium;
+    font-weight: 400;
     color: #2e2e2e;
+    transition: 0.2s;
+}
+
+.menu>li>a:hover {
+    font-weight: bold;
+    color: #E94B4A;
 }
 
 .menu>li>.first {
     font-size: 20px;
     font-weight: bold;
     color: #E94B4A;
+}
+
+.menu>li>.first:hover {
+    color: #E94B4A;
+    font-weight: 400;
 }
 
 .login {
@@ -131,6 +147,7 @@ html {
     gap: 7px;
     border-radius: 25px;
     border: 2px solid #F0F0F0;
+    transition: 0.2s;
 }
 
 .login>p {
@@ -138,7 +155,6 @@ html {
     font-weight: medium;
     color: #F0F0F0;
 }
-
 
 /* Navbar End */
 
