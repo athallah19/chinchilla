@@ -23,9 +23,9 @@ function dropdown() {
     let status = $('#dropdown').css('display')
     if (status == 'block') {
         $('#dropdown').hide()
-        $('#gnb-menu').attr('src','asset/hambuger1.png')
+        $('#hambuger').attr('src','asset/hambuger1.png')
     } else {
         $('#dropdown').show()
-        $('#gnb-menu').attr('src','asset/hambuger2.png')
+        $('#hambuger').attr('src','asset/hambuger2.png')
     }
 }
