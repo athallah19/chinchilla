@@ -29,7 +29,7 @@ html {
 .nav-box {
     width: 100%;
     position: fixed;
-    z-index: 3;
+    z-index: 2;
 }
 
 .nav-1 {
@@ -42,8 +42,15 @@ html {
     height: 100px;
 }
 
-.hambugermenu {
+.hambuger-menu {
+    width: 28px;
+    height: 20px;
     margin-right: auto;
+}
+
+.dropdown-box {
+    width: 1300px;
+    padding-bottom: 100px;
 }
 
 .dropdown {
@@ -51,17 +58,21 @@ html {
     height: 300px;
     background-color: #E94B4A;
     border-radius: 15px;
+    display: none;
+    margin-right: auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .dropdown-content {
     width: 220px;
     height: 300px;
-    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dropdown-menu {
     gap: 10px;
-    padding-top: 45px;
+    padding-top: 50px;
     margin-right: auto;
 }
 
@@ -69,11 +80,6 @@ html {
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
-}
-
-.dropdown-menu>li {
-    color: #FFF;
-    font-size: 20px;
 }
 
 .dropdown-menu>li {
