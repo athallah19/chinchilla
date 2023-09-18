@@ -24,11 +24,11 @@ html {
     justify-content: center;
 }
 
-/* .nav-box {
+.nav-box {
     width: 100%;
     position: fixed;
-    padding-bottom: 30px;
-} */
+    z-index: 3;
+}
 
 .nav-1 {
     width: 100%;
