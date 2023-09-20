@@ -43,10 +43,14 @@ html {
     height: 100px;
 }
 
+.logo {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .hambuger-menu {
     width: 28px;
     height: 20px;
-    margin-right: auto;
     cursor: pointer;
 }
 
@@ -140,11 +144,14 @@ html {
     width: 110px;
     height: 45px;
 
-    margin-left: auto;
     gap: 7px;
     border-radius: 25px;
     border: 2px solid #F0F0F0;
     transition: 0.2s;
+}
+
+.login:hover {
+    border: 2px solid #F0F0F0;
 }
 
 .login>p {
@@ -160,6 +167,53 @@ html {
 
 /* Navbar End */
 
+/* Hero Start */
+
+.hero {
+    width: 100%;
+    height: 541px;
+
+    background-color: #F0F0F0;
+    border-radius: 0px 0px 300px 0px;
+    padding-top: 140px;
+}
+
+.hero-content {
+    width: 1300px;
+    height: 541px;
+
+    margin-bottom: 50px;
+}
+
+.hero-content>.left {
+    margin-right: auto;
+}
+
+.hero-content>.left>.satu {
+    color: #2E2E2E;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: auto;
+}
+
+.hero-content>.left>.dua {
+    color: #2E2E2E;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-bottom: 70px;
+    margin-right: auto;
+}
+
+.hero-content>.right {
+    margin-left: auto;
+}
+
+/* Hero End */
 
 /* Footer Start */
 
@@ -167,7 +221,6 @@ footer {
     width: 100%;
     height: 756px;
     background-color: #E94B4A;
-
     border-radius: 300px 0px 0px 0px;
 }
 

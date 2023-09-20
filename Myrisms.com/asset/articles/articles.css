@@ -1,0 +1,73 @@
+.content-box {
+    width: 100%;
+    height: 3636px;
+
+    margin-top: 220px;
+    margin-bottom: 220px;
+}
+
+.content-box>.content {
+    width: 1300px;
+    gap: 90px;
+}
+
+.news {
+    width: 1300px;
+    border-top: 2px solid #2E2E2E;
+    height: 527px;
+}
+
+.judul-menu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+}
+
+.judul-menu2 {
+    color: #2E2E2E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 30px;
+
+}
+
+.bi-chevron-right {
+    width: 25px;
+    height: 15px;
+    gap: 11px;
+}
+
+.kpop-content {
+    gap: 155px;
+    height: 367px;
+}
+
+.kpop-content>.right {
+    width: 633px;
+    height: 367px;
+    gap: 11px;
+}
+
+.col {
+    height: 178px;
+}
+
+.row {
+    gap: 67px;
+}
+
+.card {
+    width: 283px;
+    height: 178px;
+    gap: 5px;
+}
+
+.caption {
+    width: 283px;
+    height: 46px;
+    color: #2E2E2E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

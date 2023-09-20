@@ -1,61 +1,13 @@
-/* Hero Start */
-
-.hero {
-    width: 100%;
-    height: 541px;
-
-    background-color: #F0F0F0;
-    border-radius: 0px 0px 300px 0px;
-    padding-top: 140px;
-}
-
-.hero-content {
-    width: 1300px;
-    height: 541px;
-
-    margin-bottom: 50px;
-}
-
-.hero-content>.left {
-    margin-right: auto;
-}
-
-.hero-content>.left>.satu {
-    color: #2E2E2E;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.hero-content>.left>.dua {
-    color: #2E2E2E;
-    font-size: 35px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: normal;
-
-    margin-bottom: 70px;
-    margin-right: auto;
-}
-
-.hero-content>.right {
-    margin-left: auto;
-}
-
-/* Hero End */
-
-
 /* About us Start */
 
 .about-us {
-    margin-top: 280px;
-    margin-bottom: 280px;
+    margin-top: 220px;
+    margin-bottom: 220px;
 }
 
 .about-us-content {
     width: 1300px;
-    height: 614px;
+    height: 630px;
 
     gap: 64px;
 }
@@ -63,9 +15,9 @@
 .banner {
     margin-bottom: 25px;
     width: 611.17px;
-    height: 614px;
+    height: 630px;
     border-radius: 20px;
-    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .swiper {
@@ -76,8 +28,7 @@
     width: 625.259px;
     height: 614px;
 
-    gap: 15px;
-    margin-bottom: auto;
+    gap: 13px;
 }
 
 .about-us-content>.right>h3 {
