@@ -110,9 +110,5 @@ input[type="submit"]:hover {
 .signup_link a {
     color: #2e2e2e;
     text-decoration: none;
-}
-.signup_link span {
-    color: #E94B4A;
-    font-weight: 700;
-    text-decoration: none;
+    cursor: pointer;
 }

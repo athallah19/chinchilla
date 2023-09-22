@@ -2,8 +2,8 @@
     width: 100%;
     height: 3636px;
 
-    margin-top: 220px;
-    margin-bottom: 220px;
+    margin-top: 200px;
+    margin-bottom: 300px;
 }
 
 .content-box>.content {
@@ -11,10 +11,19 @@
     gap: 90px;
 }
 
+.news1 {
+    width: 1300px;
+    height: 477px;
+}
 .news {
     width: 1300px;
     border-top: 2px solid #2E2E2E;
     height: 527px;
+}
+
+.judul-menu1 {
+    margin-bottom: 50px;
+    margin-right: auto;
 }
 
 .judul-menu {
@@ -53,13 +62,17 @@
 }
 
 .row {
-    gap: 67px;
+    gap: 40px;
 }
 
 .card {
     width: 283px;
     height: 178px;
     gap: 5px;
+}
+
+.card img {
+    border-radius: 10px 10px 0px 0px;
 }
 
 .caption {

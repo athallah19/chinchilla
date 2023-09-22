@@ -38,10 +38,17 @@
             </div>
             <input type="submit" value="Login">
             <div class="signup_link">
-                <a href="index.html">Back to <span>Home</span></a>
+                <a id="kembali">Kembali</a>
             </div>
         </form>
     </div>
+
+    <script>
+        document.getElementById('kembali').addEventListener('click', function () {
+            window.history.back();
+        });
+    </script>
+
 </body>
 
 </html>
