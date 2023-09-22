@@ -67,8 +67,7 @@
 }
 
 .card {
-    width: 270px;
-    gap: 5px;
+    width: 230px;
 }
 
 .card>img {
@@ -80,4 +79,5 @@
     font-size: 12px;
     font-style: normal;
     font-weight: bold;
+    height: 36px;
 }
