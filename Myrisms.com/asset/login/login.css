@@ -110,5 +110,10 @@ input[type="submit"]:hover {
 .kembali a {
     color: #2e2e2e;
     text-decoration: none;
+    transition: 0.2s;
     cursor: pointer;
+}
+
+.kembali a:hover {
+    color: #2e2e2e;
 }
