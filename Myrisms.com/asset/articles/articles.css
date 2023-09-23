@@ -46,20 +46,22 @@
 }
 
 .about-menu>.right {
-    height: 375px;
-    gap: 15px;
+    height: auto;
     margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    gap: 15px;
+}
+
+.about-menu .left {
+    height: 401px;
 }
 
 .about-menu .left img {
+    height: 401px;
     margin-right: auto;
 }
 
 .col {
     margin-left: auto;
-    height: 178px;
 }
 
 .row {
@@ -68,16 +70,27 @@
 
 .card {
     width: 230px;
+    height: 193px;
 }
 
-.card>img {
+.card img {
     border-radius: 10px 10px 10px 10px;
 }
 
 .caption {
+    padding-top: 5px;
+}
+
+.caption p {
     color: #2E2E2E;
     font-size: 12px;
-    font-style: normal;
     font-weight: bold;
-    height: 36px;
 }
+
+.caption .date {
+    color: #2E2E2E;
+    font-size: 10px;
+    font-weight: 100;
+    list-style: none;
+}
+
