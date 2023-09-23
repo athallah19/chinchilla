@@ -16,6 +16,10 @@
     border-top: 2px solid #2E2E2E;
 }
 
+.news1 {
+    height: 560px;
+}
+
 .judul-menu-kpop {
     margin-bottom: 50px;
     margin-right: auto;
@@ -58,10 +62,6 @@
 .about-menu .left img {
     height: 401px;
     margin-right: auto;
-}
-
-.col {
-    margin-left: auto;
 }
 
 .row {
