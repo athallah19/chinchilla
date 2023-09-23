@@ -11,7 +11,6 @@
     gap: 90px;
 }
 
-
 .news {
     border-top: 2px solid #2E2E2E;
 }
@@ -52,7 +51,7 @@
 .about-menu>.right {
     height: auto;
     margin-left: auto;
-    gap: 15px;
+    gap: 18px;
 }
 
 .about-menu .left {
@@ -69,7 +68,7 @@
 }
 
 .card {
-    width: 230px;
+    width: 250px;
     height: 193px;
 }
 
@@ -90,7 +89,6 @@
 .caption .date {
     color: #2E2E2E;
     font-size: 10px;
-    font-weight: 100;
+    font-weight: 400;
     list-style: none;
 }
-
