@@ -8,7 +8,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding: 11rem;
+    scroll-padding: 12rem;
 }
 
 .flex-col {
@@ -38,7 +38,7 @@ html {
 
 nav.scrolled-down {
     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.14);
-  }
+}
 
 .nav-1 {
     width: 100%;

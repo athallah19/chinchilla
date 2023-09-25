@@ -38,12 +38,6 @@
 
 }
 
-.bi-chevron-right {
-    width: 25px;
-    height: 15px;
-    gap: 11px;
-}
-
 .about-menu {
     width: 1300px;
 }
@@ -77,7 +71,10 @@
 }
 
 .caption {
-    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    gap: 4px;
 }
 
 .caption p {
