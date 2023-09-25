@@ -56,7 +56,7 @@
 
                 <div class="menu flex-row">
                     <li><a class="first" href="#hero">EVENT</a></li>
-                    <li><a href="#content">Korea event in Indonesian</a></li>
+                    <li><a href="#content">Korea event in Indonesia</a></li>
                 </div>
 
             </div>
@@ -103,9 +103,9 @@
     <section class="hero flex-row" id="hero">
         <div class="hero-content flex-row">
 
-            <div class="left flex-col">
+            <div class="left">
                 <h1 class="satu">EVENT</h1>
-                <h3 class="dua">All About Korean-Event</h3>
+                <h3 class="dua"></h3>
             </div>
 
             <div class="right">
@@ -207,6 +207,13 @@
 
     <script src="../asset/event/event.js"></script>
     <script src="../asset/my.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.dua', { duration: 2, delay: 0.8, text: 'All About Korean-Event' });
+    </script>
 </body>
 
 </html>
