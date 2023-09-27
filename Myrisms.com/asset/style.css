@@ -26,6 +26,31 @@ html {
 }
 
 
+#loader { 
+    border: 12px solid #f3f3f3; 
+    border-radius: 50%; 
+    border-top: 12px solid #444444; 
+    width: 70px; 
+    height: 70px; 
+    animation: spin 1s linear infinite; 
+} 
+ 
+@keyframes spin { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+} 
+ 
+.center { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    margin: auto; 
+} 
+
+
 /* NAVBAR Start */
 
 
@@ -173,12 +198,21 @@ nav.scrolled-down {
 }
 
 .menu>li>.first {
-    font-weight: bold;
+    font-weight: 600;
     color: #E94B4A;
 }
 
 .menu>li>.first:hover {
     color: #e93030;
+}
+
+.menu>li>.first2 {
+    font-weight: 600;
+    color: #2E2E2E;
+}
+
+.menu>li>.first2:hover {
+    color: #000;
 }
 
 

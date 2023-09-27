@@ -67,29 +67,36 @@
 }
 
 .img-wrapper {
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
     width: 250px;
     height: 120px;
     overflow: hidden;
 }
 
 .img-wrapper img {
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
     width: 100%;
     height: 100%;
     transition: 0.5s ease;
     cursor: pointer;
 }
 
-.img-wrapper img:hover {
-    transform: scale(1.1);
-} 
 
 .caption {
     display: flex;
     flex-direction: column;
     padding-top: 7px;
     gap: 4px;
+
+    cursor: pointer;
+}
+
+.example:hover {
+    .img-wrapper img {
+        transform: scale(1.1);   
+    }
+    
+    text-decoration: underline;
 }
 
 .caption p {
