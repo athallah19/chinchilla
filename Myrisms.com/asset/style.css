@@ -11,6 +11,13 @@ html {
     scroll-padding: 12rem;
 }
 
+hr {
+    color: #2E2E2E;
+    size: 51px;
+    width: 1300px;
+    
+}
+
 .flex-col {
     display: flex;
     flex-direction: column;
