@@ -8,11 +8,7 @@
 
 .content-box>.content {
     width: 1300px;
-    gap: 90px;
-}
-
-.news {
-    border-top: 2px solid #2E2E2E;
+    gap: 150px;
 }
 
 .news1 {
@@ -25,7 +21,6 @@
 }
 
 .judul-menu {
-    margin-top: 50px;
     margin-bottom: 50px;
     margin-right: auto;
 }
@@ -45,7 +40,7 @@
 .about-menu>.right {
     height: auto;
     margin-left: auto;
-    gap: 18px;
+    gap: 25px;
 }
 
 .about-menu .left {
@@ -63,7 +58,7 @@
 
 .example {
     width: 250px;
-    height: 193px;
+    height: 183px;
 }
 
 .img-wrapper {
@@ -97,6 +92,7 @@
     }
 
     text-decoration: underline;
+    text-decoration-color: #2E2E2E;
 }
 
 .caption p {
