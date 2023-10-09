@@ -40,18 +40,19 @@
 }
 
 .berita {
-    width: 1000px;
+    width: 800px;
     margin-top: 80px;
 
     display: flex;
     flex-direction: column;
+    margin-right: auto;
 
     gap: 50px;
 }
 
 .berita img {
-    width: 1000px;
-    height: 620px;
+    width: 800px;
+    height: 500px;
 
     border-radius: 20px;
 }

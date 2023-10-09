@@ -206,7 +206,7 @@ nav.scrolled-down {
     border-radius: 15px;
     display: none;
     margin-right: auto;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .dropdown-content {
@@ -230,13 +230,13 @@ nav.scrolled-down {
 
 .dropdown-menu>li>a {
     color: #F0F0F0;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 400;
     transition: 0.2s;
 }
 
 .dropdown-menu>li>a:hover {
-    color: #ffffff;
+    color: white;
 }
 
 .dropdown-icon {
@@ -298,7 +298,7 @@ nav.scrolled-down {
 }
 
 .menu>li>a:hover {
-    color: #000000;
+    color: black;
 }
 
 .menu>li>.first {
@@ -307,7 +307,7 @@ nav.scrolled-down {
 }
 
 .menu>li>.first:hover {
-    color: #e93030;
+    color: #da4747;
 }
 
 .menu>li>.first2 {
@@ -332,7 +332,7 @@ nav.scrolled-down {
     height: 541px;
 
     background-color: #F0F0F0;
-    border-radius: 0px 0px 300px 0px;
+    border-radius: 0px 0px 200px 0px;
     padding-top: 120px;
 }
 
@@ -397,7 +397,7 @@ nav.scrolled-down {
 
 .card {
     width: 380px;
-    height: 442px;
+    height: 420px;
     border-radius: 20px;
     background-color: #f0f0f0;
     transition: 0.2s;
@@ -431,42 +431,7 @@ nav.scrolled-down {
     font-weight: 400;
 }
 
-.action {
-    display: flex;
-    align-items: start;
-    flex-direction: row;
 
-    padding-top: 12px;
-    gap: 15px;
-}
-
-.see-event {
-    width: 100px;
-    height: 40px;
-    background-color: #0E3959;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.see-event p {
-    color: #F0F0F0;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-.share-event {
-    width: 120px;
-    height: 40px;
-    background-color: #0E3959;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.share-event p {
-    color: #F0F0F0;
-    font-size: 13px;
-    font-weight: 500;
-}
 
 /* CARD End */
 
@@ -479,7 +444,7 @@ footer {
     width: 100%;
     height: 756px;
     background-color: #E94B4A;
-    border-radius: 300px 0px 0px 0px;
+    border-radius: 200px 0px 0px 0px;
 }
 
 .footer-content {

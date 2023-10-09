@@ -8,12 +8,6 @@ body,
     height: 100%;
 }
 
-@keyframes rotate {
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 body {
     display: grid;
     place-items: center;
@@ -21,7 +15,6 @@ body {
     background: #e8f2f7;
     font-family: "Poppins";
     color: #3a334e;
-    animation: rotate 1s infinite alternate linear;
 }
 
 button {
@@ -50,7 +43,7 @@ button {
 
 .card {
     width: 400px;
-    padding: 30px 30px 38px;
+    padding: 30px 30px 30px;
     border-radius: 1.25rem;
     background: #ffff;
     text-align: center;
@@ -61,7 +54,7 @@ button {
 }
 
 .card>h2 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
     margin: 0 0 30px;
 }
@@ -70,15 +63,15 @@ button {
     width: 100%;
     margin: 0;
     display: grid;
-    gap: 18px;
+    gap: 20px;
 }
 
 .form input.control::placeholder {
     color: #a2a0a9;
-    font-weight: 300;
+    font-weight: 400;
 }
 
-.form>button.control {
+.button-control {
     cursor: pointer;
     width: 100%;
     height: 56px;
@@ -94,6 +87,10 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: all 0.375s;
+}
+
+.button-control:hover {
+    background: #da4747;
 }
 
 .password {
