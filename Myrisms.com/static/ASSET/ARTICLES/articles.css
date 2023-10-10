@@ -34,13 +34,15 @@
 }
 
 .about-menu .left {
-    height: 328px;
+    width: 470px;
+    height: 342px;
 }
 
 .about-menu .left img {
-    width: 450px;
-    height: 328px;
+    width: 470px;
+    height: 342px;
     margin-right: auto;
+    margin-bottom: auto;
 }
 
 .row {
@@ -92,7 +94,7 @@
 .caption p {
     color: #2E2E2E;
     font-size: 10px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .caption .date {

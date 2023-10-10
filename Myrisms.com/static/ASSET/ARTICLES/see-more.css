@@ -22,6 +22,7 @@
 .judul-berita {
     display: flex;
     flex-direction: column;
+    margin-right: auto;
     margin-bottom: 12px;
     gap: 40px;
 }
@@ -40,18 +41,18 @@
 }
 
 .berita {
-    width: 800px;
+    width: 750px;
     margin-top: 80px;
 
     display: flex;
     flex-direction: column;
-    margin-right: auto;
+
 
     gap: 50px;
 }
 
 .berita img {
-    width: 800px;
+    width: 750px;
     height: 500px;
 
     border-radius: 20px;

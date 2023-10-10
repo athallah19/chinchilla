@@ -30,7 +30,7 @@ button {
     height: 56px;
     padding: 0 56px 0 16px;
     border-radius: 6px;
-    background: #f4f5f7;
+    background: #f0f0f0;
     color: #2e2e2e;
     font-family: inherit;
     font-size: 18px;
@@ -41,7 +41,7 @@ button {
     border-color: rgb(0 0 0 / 30%);
 }
 
-.card {
+.card-login {
     width: 400px;
     padding: 30px 30px 30px;
     border-radius: 1.25rem;
@@ -49,11 +49,11 @@ button {
     text-align: center;
 }
 
-.card>img {
+.card-login>img {
     width: 280px;
 }
 
-.card>h2 {
+.card-login>h2 {
     font-size: 40px;
     font-weight: 700;
     margin: 0 0 30px;
