@@ -173,9 +173,8 @@ nav.scrolled-down {
 }
 
 .logo {
-    padding-left: 50px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-right: 28px;
+    margin: auto;
 }
 
 .logo img {
@@ -246,7 +245,7 @@ nav.scrolled-down {
     margin-top: auto;
 }
 
-.login {
+/* .login {
     width: 100px;
     height: 40px;
 
@@ -264,12 +263,12 @@ nav.scrolled-down {
     font-size: 16px;
     font-weight: medium;
     color: #F0F0F0;
-}
+} */
 
-.bi-person-badge-fill {
+/* .bi-person-badge-fill {
     font-size: 18px;
     color: #F0F0F0;
-}
+} */
 
 
 /* dropdown end */

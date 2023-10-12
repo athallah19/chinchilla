@@ -153,6 +153,10 @@ def kmartexamplesemore2():
 def kmartexamplesemore3():
     return render_template("articles/kmart/example-seemore3.html")
 
+@app.route("/kmart-example-seemore4")
+def kmartexamplesemore4():
+    return render_template("articles/kmart/example-seemore4.html")
+
 
 
 @app.route("/kfood")
