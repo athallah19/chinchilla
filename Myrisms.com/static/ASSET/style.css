@@ -13,9 +13,9 @@ html {
 
 hr {
     color: #2E2E2E;
-    size: 51px;
+    size: 50px;
     width: 1185px;
-    
+
 }
 
 .flex-col {
@@ -205,7 +205,8 @@ nav.scrolled-down {
     border-radius: 15px;
     display: none;
     margin-right: auto;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 18px 36px -18px rgba(0, 0, 0, 0.1),
+        0px 30px 45px -30px rgba(50, 50, 93, 0.25);
 }
 
 .dropdown-content {
@@ -328,10 +329,9 @@ nav.scrolled-down {
 
 .hero {
     width: 100%;
-    height: 530px;
+    height: 550px;
 
     background-color: #F0F0F0;
-    border-radius: 0px 0px 200px 0px;
     padding-top: 120px;
 }
 
@@ -384,26 +384,28 @@ nav.scrolled-down {
 /* CARD End */
 
 
-.card-content {
-    width: 1185px;
-    height: 100%;
-    gap: 70px;
+.cards {
+    margin: 0 auto;
+    max-width: 1185px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    gap: 40px;
+    padding-top: 220px;
+    margin-bottom: 300px;
 }
 
-.col {
-    gap: 22px;
+.cards * {
+    box-sizing: border-box;
 }
 
 .card {
     width: 380px;
-    height: 420px;
     border-radius: 20px;
     background-color: #f0f0f0;
-    transition: 0.2s;
-}
-
-.card:hover {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 18px 36px -18px rgba(0, 0, 0, 0.1),
+        0px 30px 45px -30px rgba(50, 50, 93, 0.25);
+    cursor: pointer;
 }
 
 .card img {
@@ -411,11 +413,13 @@ nav.scrolled-down {
     height: 212px;
     border-radius: 20px 20px 0px 0px;
     margin-bottom: auto;
+    object-fit: cover;
 }
 
 .card-content {
     width: 322px;
-    padding-top: 15px;
+    padding-top: 11px;
+    padding-bottom: 70px;
 }
 
 .card-content .text .header-text {
@@ -426,10 +430,9 @@ nav.scrolled-down {
 
 .card-content .date {
     color: #2E2E2E;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 400;
 }
-
 
 
 /* CARD End */
@@ -443,11 +446,10 @@ footer {
     width: 100%;
     height: 756px;
     background-color: #E94B4A;
-    border-radius: 200px 0px 0px 0px;
 }
 
 .footer-content {
-    gap: 250px;
+    gap: 300px;
     padding-top: 175px;
 }
 

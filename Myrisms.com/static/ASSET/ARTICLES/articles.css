@@ -2,8 +2,8 @@
     width: 100%;
     height: 100%;
 
-    margin-top: 200px;
-    margin-bottom: 300px;
+    padding-top: 220px;
+    margin-bottom: 300px;   
 }
 
 .content-box>.content {
@@ -46,7 +46,7 @@
 }
 
 .row {
-    gap: 40px;
+    gap: 35px;
 }
 
 .example {
@@ -60,12 +60,16 @@
     overflow: hidden;
 }
 
+
+
 .img-wrapper img {
     border-radius: 15px 15px 15px 15px;
     width: 100%;
     height: 100%;
     transition: 0.5s ease;
     cursor: pointer;
+
+    object-fit: cover;
 }
 
 
