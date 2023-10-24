@@ -19,3 +19,5 @@ document.addEventListener("scroll", onScroll);
 $(document).ready(function () {
   $(".bg-loader").hide();
 })
+
+const toggleModal = () => document.body.classList.toggle("open");

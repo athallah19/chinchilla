@@ -12,7 +12,7 @@ body {
     display: grid;
     place-items: center;
     margin: 0;
-    background: #e8f2f7;
+    background: linear-gradient(120deg,#e8f2f7, #d7e1e6);
     font-family: "Poppins";
     color: #3a334e;
 }
@@ -30,7 +30,7 @@ button {
     height: 56px;
     padding: 0 56px 0 16px;
     border-radius: 6px;
-    background: #f0f0f0;
+    background: #f5f4f4;
     color: #2e2e2e;
     font-family: inherit;
     font-size: 18px;

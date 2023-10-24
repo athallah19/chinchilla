@@ -388,16 +388,14 @@ nav.scrolled-down {
     margin: 0 auto;
     max-width: 1185px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
-    gap: 40px;
+    gap: 22px;
     padding-top: 220px;
     margin-bottom: 300px;
 }
 
-.cards * {
-    box-sizing: border-box;
-}
+
 
 .card {
     width: 380px;
@@ -406,23 +404,49 @@ nav.scrolled-down {
     box-shadow: 0px 18px 36px -18px rgba(0, 0, 0, 0.1),
         0px 30px 45px -30px rgba(50, 50, 93, 0.25);
     cursor: pointer;
+    margin-bottom: auto;
 }
 
-.card img {
+.img-wrapper {
     width: 380px;
-    height: 212px;
+    height: 220px;
     border-radius: 20px 20px 0px 0px;
-    margin-bottom: auto;
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+
+    border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
+.card:hover {
+    .img-wrapper img {
+        transform: scale(1.1);
+    }
+
+    .text h3,
+    .card-content span {
+        color: black;
+    }
+}
+
 .card-content {
-    width: 322px;
-    padding-top: 11px;
-    padding-bottom: 70px;
+    width: 340px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .card-content .text .header-text {
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
     color: #2e2e2e;
     font-size: 18px;
     font-weight: 600;
@@ -432,6 +456,70 @@ nav.scrolled-down {
     color: #2E2E2E;
     font-size: 11px;
     font-weight: 400;
+}
+
+
+
+.background {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    visibility: hidden;
+    background: rgba(32, 32, 32, 0.25);
+}
+
+body.open .background {
+    visibility: visible;
+    opacity: 1;
+}
+
+@keyframes modal-in {
+    0% {
+        translate: -50% 10%;
+        scale: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+        visibility: visible;
+    }
+}
+
+.page-content,
+.modal,
+.background {
+    transition: 0.5s;
+}
+
+.modal {
+    z-index: 4;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    color: #f9f9f9;
+    padding: 40px 40px;
+    width: 40%;
+    height: 50%;
+    border-radius: 12px;
+    translate: -50% -50%;
+    scale: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+body.open .modal {
+    opacity: 1;
+    visibility: visible;
+    animation: modal-in 0.5s;
 }
 
 
