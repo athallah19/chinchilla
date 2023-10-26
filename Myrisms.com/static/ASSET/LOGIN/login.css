@@ -28,8 +28,8 @@ button {
     outline: none;
     width: 100%;
     height: 56px;
-    padding: 0 56px 0 16px;
-    border-radius: 6px;
+    padding: 0 56px 0 20px;
+    border-radius: 15px;
     background: #f5f4f4;
     color: #2e2e2e;
     font-family: inherit;
@@ -44,7 +44,7 @@ button {
 .card-login {
     width: 400px;
     padding: 30px 30px 30px;
-    border-radius: 1.25rem;
+    border-radius: 20px;
     background: #ffff;
     text-align: center;
     
@@ -80,7 +80,7 @@ button {
     background: #E94B4A;
     color: #f0f0f0;
     border: 0;
-    border-radius: 6px;
+    border-radius: 15px;
     font-family: inherit;
     font-size: 16px;
     font-weight: 600;
@@ -123,5 +123,6 @@ button {
 }
 
 .kembali a:hover {
+    text-decoration: underline;
     color: #000;
 }

@@ -13,7 +13,7 @@ def home():
 
 @app.route("/articles")
 def articles():
-    return render_template("articles/articles.html")
+    return render_template("articles.html")
 
 @app.route("/event")
 def event():
@@ -27,11 +27,19 @@ def login():
 def dashboard():
     return render_template("dashboard.html")
 
+@app.route("/tambahdata-event")
+def tambahdataevent():
+    return render_template("tambahdata-event.html")
+
+# @app.route("/editdata-event")
+# def editdataevent():
+#     return render_template("editdata-event.html")
+
 
 
 @app.route("/kpop")
 def kpop():
-    return render_template("articles/kpop.html")
+    return render_template("kpop.html")
 
 
 

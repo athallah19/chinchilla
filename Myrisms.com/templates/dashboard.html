@@ -6,7 +6,7 @@
     <title>Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/asset/style.css">
-    <link rel="stylesheet" href="../static/asset/dahboard/dashboard.css">
+    <link rel="stylesheet" href="../static/asset/dashboard/dashboard.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
@@ -51,8 +51,40 @@
 
     <div id="event" data-tab-content class="active cards2">
         <div class="action flex-col">
-            <a href="" class="addbutton flex-row">Tambah Berita <i class="bi bi-plus-circle"></i></a>
+            <a href="/tambahdata-event" class="addbutton flex-row">Tambah Berita Event<i
+                    class="bi bi-plus-circle"></i></a>
             <a href="/event" class="seedbutton flex-row">Lihat Berita Event <i class="bi bi-book-half"></i></a>
+        </div>
+        <article class="card flex-col">
+            <div class="img-wrapper">
+                <img src="../../../static/ASSET/ARTICLES/kpop/rize.jpg">
+            </div>
+            <div class="card-content">
+
+                <div class="text">
+                    <h3 class="header-text">kecelakaan gak di sengaja saat bangun rumah, agensi Song hye
+                        kyo minta maaf pada korban</h3>
+                </div>
+                <span class="date">Published: 23 September 2023.</span>
+
+            </div>
+            <div class="button-wrap flex-row">
+                <a class="button flex-row">
+                    <i class="bi-pencil"></i>
+                </a>
+                <a class="button flex-row">
+                    <i class="bi bi-trash3"></i>
+                </a>
+            </div>
+        </article>
+
+    </div>
+
+
+    <div id="kpop" data-tab-content class="cards2">
+        <div class="action flex-col">
+            <a href="" class="addbutton flex-row">Tambah Berita K-Pop<i class="bi bi-plus-circle"></i></a>
+            <a href="/kpop" class="seedbutton flex-row">Lihat Berita K-Pop<i class="bi bi-book-half"></i></a>
         </div>
         <article class="card flex-col">
             <div class="img-wrapper">
@@ -228,22 +260,13 @@
                 </a>
             </div>
         </article>
-    </div>
-
-
-    <div id="kpop" data-tab-content class="cards2">
-        <div class="action flex-col">
-            <a href="" class="addbutton flex-row">Tambah Berita <i class="bi bi-plus-circle"></i></a>
-            <a href="/kpop" class="seedbutton flex-row">Lihat Berita K-Pop<i class="bi bi-book-half"></i></a>
-        </div>
-
 
     </div>
 
 
     <div id="kdrama" data-tab-content class="cards2">
         <div class="action flex-col">
-            <a href="" class="addbutton flex-row">Tambah Berita <i class="bi bi-plus-circle"></i></a>
+            <a href="" class="addbutton flex-row">Tambah Berita K-Drama<i class="bi bi-plus-circle"></i></a>
             <a href="/kdrama" class="seedbutton flex-row">Lihat Berita K-Drama<i class="bi bi-book-half"></i></a>
         </div>
         <article class="card flex-col">
@@ -318,7 +341,7 @@
 
     <div id="kbeuty" data-tab-content class="cards2">
         <div class="action flex-col">
-            <a href="" class="addbutton flex-row">Tambah Berita <i class="bi bi-plus-circle"></i></a>
+            <a href="" class="addbutton flex-row">Tambah Berita K-Beuty<i class="bi bi-plus-circle"></i></a>
             <a href="/kbeuty" class="seedbutton flex-row">Lihat Berita K-Beuty<i class="bi bi-book-half"></i></a>
         </div>
         <article class="card flex-col">
@@ -466,8 +489,24 @@
     <!-- FOOTER start -->
 
 
-    <script src="../static/ASSET/my.js"></script>
     <script>
+        const nav = document.querySelector("#nav");
+
+        const onScroll = (event) => {
+            const scrollPosition = event.target.scrollingElement.scrollTop;
+            if (scrollPosition > 10) {
+                if (!nav.classList.contains("scrolled-down")) {
+                    nav.classList.add("scrolled-down");
+                }
+            } else {
+                if (nav.classList.contains("scrolled-down")) {
+                    nav.classList.remove("scrolled-down");
+                }
+            }
+        };
+
+        document.addEventListener("scroll", onScroll);
+
         const tabs = document.querySelectorAll('[data-tab-target]')
         const tabContents = document.querySelectorAll('[data-tab-content]')
 
