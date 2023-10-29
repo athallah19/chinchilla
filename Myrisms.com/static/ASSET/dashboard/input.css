@@ -135,9 +135,10 @@ section {
 }
 
 .tambah-berita {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     margin-right: auto;
+    width: 90%;
     padding: 15px 20px;
 }
 

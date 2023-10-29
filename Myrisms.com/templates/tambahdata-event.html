@@ -30,7 +30,7 @@
                 <form action="" class="form" id="form">
 
                     <div class="container">
-                        <input type="file" id="file" accept="image/*" hidden>
+                        <input type="file" id="image" accept="image/*" hidden>
                         <div class="img-area" data-img="">
 
                             <p>*File Gambar harus kurang dari 1MB</p>
@@ -38,7 +38,7 @@
                                 220px</p>
 
                         </div>
-                        <textarea id="file" spellcheck="false" class="control"
+                        <textarea id="headline" spellcheck="false" class="control"
                             placeholder="*Masukkan judul berita disini *Maksimal 150 huruf" maxlength="150"></textarea>
                     </div>
 
@@ -46,7 +46,7 @@
                     <div class="container2 flex-col">
                         <button type="button" class="select-image">Uploud Gambar <i
                                 class="bi bi-cloud-arrow-up"></i></button>
-                        <button type="button" class="tambah-berita">Tambah Berita <i
+                        <button onclick="posting()" type="button" class="tambah-berita">Tambah Berita <i
                                 class="bi bi-plus-circle"></i></button>
                         <button type="button" class="kembali" id="kembali">Kembali <i
                                 class="bi bi-rewind-circle"></i></button>

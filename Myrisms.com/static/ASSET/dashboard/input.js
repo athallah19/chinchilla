@@ -1,5 +1,5 @@
 const selectImage = document.querySelector('.select-image');
-const inputFile = document.querySelector('#file');
+const inputFile = document.querySelector('#image');
 const imgArea = document.querySelector('.img-area');
 
 selectImage.addEventListener('click', function () {
